@@ -1,0 +1,11 @@
+features_type: mfcc
+sr: 44100
+sample_length_seconds: 2
+frame_length: 440
+hop_length: 110
+n_mfcc: 40
+max_freq: 2500
+window_type: hamming
+normalize_audio: True
+normalize_features: True
+subtimesteps: True

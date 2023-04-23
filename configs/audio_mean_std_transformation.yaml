@@ -1,0 +1,8 @@
+features_type: "mean_std"
+sr: 44100
+sample_length_seconds: 2
+frame_length: 440
+normalize_audio: False
+normalize_features: False
+subtimesteps: False
+max_freq: 1500

@@ -1,0 +1,12 @@
+features_type: spec
+sr: 44100
+sample_length_seconds: 2
+frame_length: 440
+hop_length: 110
+min_freq: 0
+max_freq: 1500
+window_type: hann
+mode: magnitude
+normalize_audio: True
+normalize_features: True
+subtimesteps: True

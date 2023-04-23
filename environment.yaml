@@ -1,0 +1,21 @@
+name: bowel-updated
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9.5
+  - pip
+  - numpy=1.23.5
+  - pandas=1.5.2
+  - matplotlib=3.4.2
+  - scikit-learn=0.24.2
+  - pyyaml=5.4.1
+  - xlsxwriter=1.4.3
+  - loguru=0.5.3
+  - pip:
+      - tensorflow==2.10.0
+      - hyperopt==0.2.7
+      - wandb==0.13.5
+      - flwr==1.1.0
+      - librosa=0.8.1
+      - pyhamcrest== 2.0.4
+      - parameterized==0.8.1
